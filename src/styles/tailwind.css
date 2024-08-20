@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .wrapper {
+    @apply flex h-screen w-screen items-center justify-center bg-lime-600;
+  }
+
+  .game-title {
+    @apply border-b border-b-slate-400 px-6 py-4 text-2xl font-semibold;
+    caret-color: transparent;
+  }
+
+  .answer-area {
+    @apply flex justify-center gap-3 p-4;
+  }
+
+  .answer-char {
+    @apply flex h-12 w-12 items-center justify-center rounded-md border border-slate-400;
+  }
+
+  .content-text {
+    @apply px-6 py-1 text-lg font-medium text-slate-700;
+  }
+
+  .puzzle-area {
+    @apply content-text;
+  }
+
+  .guess-area {
+    @apply content-text;
+  }
+
+  .wrong-character-list-area {
+    @apply content-text;
+  }
+
+  .btn-container {
+    @apply flex p-6 pb-8;
+  }
+
+  .reset-btn {
+    @apply flex-1 rounded-md bg-lime-600 py-4 text-lg text-white hover:bg-lime-600/80;
+  }
+}

@@ -12,13 +12,6 @@ const riddles: { riddle: string; answer: string }[] = [
     answer: "Echo",
   },
 
-  {
-    riddle: "The more you take, the more you leave behind. What am I?",
-    answer: "Footsteps",
-  },
-
-  { riddle: "What has a heart that doesn’t beat?", answer: "Artichoke" },
-
   { riddle: "What gets wetter as it dries?", answer: "Towel" },
 
   {
@@ -36,17 +29,7 @@ const riddles: { riddle: string; answer: string }[] = [
     answer: "Stamp",
   },
 
-  {
-    riddle: "What is so fragile that saying its name breaks it?",
-    answer: "Silence",
-  },
-
   { riddle: "What has one eye but can’t see?", answer: "Needle" },
-
-  {
-    riddle: "The more you have of it, the less you see. What is it?",
-    answer: "Darkness",
-  },
 
   {
     riddle:
@@ -63,8 +46,6 @@ const riddles: { riddle: string; answer: string }[] = [
   { riddle: "What has many teeth, but can’t bite?", answer: "Comb" },
 
   { riddle: "What gets bigger the more you take away?", answer: "Hole" },
-
-  { riddle: "What kind of room has no doors or windows?", answer: "Mushroom" },
 
   { riddle: "What is full of holes but still holds water?", answer: "Sponge" },
 
@@ -110,16 +91,6 @@ const riddles: { riddle: string; answer: string }[] = [
   { riddle: "What has a single eye but cannot see?", answer: "Needle" },
 
   {
-    riddle: "What is black when it’s clean and white when it’s dirty?",
-    answer: "Chalkboard",
-  },
-
-  {
-    riddle: "What begins with an “e” and only contains one letter?",
-    answer: "Envelope",
-  },
-
-  {
     riddle: "I’m tall when I’m young, and short when I’m old. What am I?",
     answer: "Candle",
   },
@@ -147,16 +118,6 @@ const riddles: { riddle: string; answer: string }[] = [
   { riddle: "What has legs, but doesn’t walk?", answer: "Table" },
 
   {
-    riddle: "The more you take, the more you leave behind. What am I?",
-    answer: "Footsteps",
-  },
-
-  {
-    riddle: "What can you break, even if you never pick it up or touch it?",
-    answer: "Promise",
-  },
-
-  {
     riddle:
       "I’m light as a feather, yet the strongest man can’t hold me for much more than a minute. What am I?",
     answer: "Breath",
@@ -170,11 +131,6 @@ const riddles: { riddle: string; answer: string }[] = [
   {
     riddle: "What has a head, a tail, is brown, and has no legs?",
     answer: "Penny",
-  },
-
-  {
-    riddle: "What is easy to get into, but hard to get out of?",
-    answer: "Trouble",
   },
 
   { riddle: "What has 88 keys but can’t open a single door?", answer: "Piano" },
@@ -212,30 +168,13 @@ const riddles: { riddle: string; answer: string }[] = [
 
   { riddle: "What is full of holes but still holds water?", answer: "Sponge" },
 
-  {
-    riddle: "What begins with T, ends with T, and has T in it?",
-    answer: "Teapot",
-  },
-
   { riddle: "What has an eye but cannot see?", answer: "Needle" },
-
-  {
-    riddle: "What word is spelled incorrectly in every dictionary?",
-    answer: "Incorrectly",
-  },
-
-  {
-    riddle: "What is white when it’s dirty and black when it’s clean?",
-    answer: "Chalkboard",
-  },
 
   { riddle: "What has keys but can’t open locks?", answer: "Piano" },
 
   { riddle: "What has a bottom at the top?", answer: "Legs" },
 
   { riddle: "What has many teeth, but can’t bite?", answer: "Comb" },
-
-  { riddle: "What is always coming but never arrives?", answer: "Tomorrow" },
 
   {
     riddle:
@@ -244,11 +183,6 @@ const riddles: { riddle: string; answer: string }[] = [
   },
 
   { riddle: "What gets wetter as it dries?", answer: "Towel" },
-
-  {
-    riddle: "What can you break, even if you never pick it up or touch it?",
-    answer: "Promise",
-  },
 
   {
     riddle: "What has four fingers and a thumb, but isn’t alive?",
@@ -269,21 +203,6 @@ const riddles: { riddle: string; answer: string }[] = [
     answer: "Short",
   },
 
-  { riddle: "What has a ring but no finger?", answer: "Telephone" },
-
-  { riddle: "What building has the most stories?", answer: "Library" },
-
-  {
-    riddle: "What is so fragile that saying its name breaks it?",
-    answer: "Silence",
-  },
-
-  {
-    riddle:
-      "What is black when you buy it, red when you use it, and gray when you throw it away?",
-    answer: "Charcoal",
-  },
-
   {
     riddle: "What has a face and two hands but no arms or legs?",
     answer: "Clock",
@@ -294,11 +213,6 @@ const riddles: { riddle: string; answer: string }[] = [
   { riddle: "What gets bigger the more you take away?", answer: "Hole" },
 
   { riddle: "What has a head but no body?", answer: "Coin" },
-
-  {
-    riddle: "What word is spelled the same way forwards and backwards?",
-    answer: "Racecar",
-  },
 
   { riddle: "What has a bottom at the top?", answer: "Legs" },
 

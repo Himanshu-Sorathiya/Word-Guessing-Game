@@ -4,7 +4,7 @@
   "description": " In Word Guessing game, the user has to guess all the letters of a randomly generated word within a specified number of tries. The game provides hints to help make the guessing process easier.",
   "main": "script.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i src/styles/tailwind.css -o dist/css/tailwind.css -w",
+    "tailwind": "npx tailwindcss -i src/styles/tailwind.css -o dist/style.css -w",
     "typescript": "npx tsc -w"
   },
   "author": "Himanshu Sorathiya",

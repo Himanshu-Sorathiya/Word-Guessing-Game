@@ -9,6 +9,35 @@
     <title>Word Guessing Game</title>
   </head>
   <body>
-    
+    <div class="wrapper">
+      <div class="game-container w-96 rounded-md bg-white">
+        <div class="game-title">Word Guessing Game</div>
+
+        <div class="answer-area">
+          <span class="answer-char"> </span>
+          <span class="answer-char"> </span>
+          <span class="answer-char"> </span>
+          <span class="answer-char"> </span>
+          <span class="answer-char"> </span>
+        </div>
+
+        <div class="puzzle-area">
+          Hint:
+          <span class="riddle">Cult of Personality</span>
+        </div>
+
+        <div class="guess-area">
+          Remaining Guesses: <span class="guess-left">8</span>
+        </div>
+
+        <div class="wrong-character-list-area">
+          Wrong Letters: <span class="wrong-character-list">H E L O</span>
+        </div>
+
+        <div class="btn-container flex p-6 pb-8">
+          <button class="reset-btn">Reset Game</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
